@@ -322,7 +322,7 @@ footer {
 }
 
 .main-text {
-  margin:20vh 0 10vh 0;
+  margin:35vh 0 10vh 0;
   text-align: center;
 }
 
@@ -440,9 +440,16 @@ footer {
   }
 }
 
-@media all and (min-width: 431px ) and (max-width: 900px) {
+@media all and (min-width: 431px ) and (max-width: 699px ) {
   .desktop-image {
     background-color: #4eafa8;
-    padding-top: 40%;
+    padding-top: 55vh;
+  }
+}
+
+@media all and (min-width: 700px ) and (max-width: 1265px) {
+  .desktop-image {
+    background-color: #4eafa8;
+    padding-top: 25vh;
   }
 }
